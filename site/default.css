@@ -1,0 +1,321 @@
+body {
+  color: #ffffff;
+  font-size: 1.2em;
+	background: #0f1f3d;
+ 	margin:0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+  color: #ffffff;
+}
+a:hover { color: #ffffff; }
+a:visited { color: #ffffff; }
+
+p
+{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+div#header {
+	padding: 1%;
+	background: #000;
+	color: #fff;
+  font-size: 1.5em;
+  font-family: 'Questrial', sans-serif;
+}
+img#logo {
+    height: 35px;
+    margin-right: 15px;
+}
+div#pick-lancer {
+  border-bottom: 1px #fff solid;
+  border-top: 1px #fff solid;
+}
+
+div.lancer {
+  width: 55px;
+  height: 45px;
+  background: transparent;
+  background-size: 55px 45px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  cursor: pointer;
+}
+div.lancer:hover, div.lancer.selected {
+  background-color: #002db3;
+}
+#tokens-line {
+  float: right;
+}
+#info div { display: inline-block; }
+#lancer-role {
+  width: 44px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-size: 44px 27px;
+}
+.abilityicon {
+  width: 100px;
+  height:100px;
+}
+.phase {
+  border-radius: 400px;
+}
+.mod-cell {
+  vertical-align: top;
+}
+.mod {
+  text-align:left;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+.mod.selected {
+  background-color: #0f3d3d;
+  border: 1px #ffffcc dotted;
+}
+.mod-name {
+  color: #ffffcc;
+  padding-left: 25px;
+}
+.mod-cost {
+  float: left;
+}
+.mod-description {
+  font-size: 0.9em;
+}
+.cd { float: left; }
+.phase-Prep {background-color: #009900;}
+.phase-Blast {background-color: #990000;}
+.phase-Dash {background-color: #cccc00;}
+#lancer-role.Frontline { background-image: url(./content/Roles/Frontline.png); }
+#lancer-role.Firepower { background-image: url(./content/Roles/Firepower.png); }
+#lancer-role.Support { background-image: url(./content/Roles/Support.png); }
+#lancer-name {font-size: 1.2em; }
+#share-link {
+  font-size: .9em;
+  color: #ffffff;
+}
+#build {
+  width: 95%;
+  margin: auto;
+  margin-top: 1%;
+}
+#abilities {
+  width: 100%;
+  text-align: center;
+  border-spacing: 50px 0;
+}
+#ability-names {
+  font-weight: bold;
+
+}
+#ability-desc {
+  font-size: .9em;
+}
+#ability-desc td {
+  vertical-align: top;
+}
+#ability-names td {
+  padding-top: 15px;
+}
+div#header #navigation {
+    text-align: right;
+	margin-right: 9%;
+	margin-top: -0.5%;
+}
+
+div#header #navigation a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-family: 'Questrial', sans-serif;
+}
+
+div#content {
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.2em;
+}
+div#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 99%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+div#footer, div#footer a {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+ol, ul
+{
+	list-style: square;
+	margin-left: 3%;
+	padding: 0.5%;
+}
+ol.wide li, ul.wide li
+{
+	margin-bottom: 1%;
+}
+
+h1 {
+    font-size: 1.3em;
+	font-family: 'Play', sans-serif;
+	font-weight: normal;
+	margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 1.2em;
+	font-family: "Questrial", cursive;
+	font-weight: normal;
+    text-transform: capitalize;
+}
+.info {
+    color: #444;
+    font-size: 0.7em;
+	font-family: "Questrial", cursive;
+}
+
+div.tags {
+	float: right;
+}
+div.tags a::before {
+	content: "#";
+}
+div.disclaimer {
+	margin-top: 7px;
+    color: #444;
+    font-size: 0.7em;
+	font-family: "Questrial", cursive;
+}
+
+blockquote {
+	font-family: "Questrial", cursive;
+	color: #666;
+	font-size: 1em;
+	border-left: #333 7px solid;
+	margin-left: 0px;
+	padding-left: 1%;
+	padding-top:  5px;
+	padding-bottom: 0px;
+	letter-spacing: 0.08em;
+}
+blockquote p em {
+	font-family: Trebuchet, "Lucida Sans Unicode", "lucida Grande", "Lucida Sans", Verdana, Geneva, Tahoma, Arial, sans-serif;
+	text-align: center;
+	font-size: 0.7em;
+	font-style: italic;
+	color: #333;
+}
+.post-list .date {
+	font-size: 0.8em;
+	font-family: "Questrial", cursive;
+	font-style: italic;
+}
+.post-list .desc {
+	font-size: 0.8em;
+	font-family: Trebuchet, "Lucida Sans Unicode", "lucida Grande", "Lucida Sans", Verdana,     Geneva, Tahoma, Arial, sans-serif;
+	font-style: italic;
+}
+
+#home-page div#header {
+	height: 300px;
+}
+
+#home-page div#logo {
+	float: none;
+	clear: both;
+	margin-top: 90px;
+}
+#home-page div#logo a {
+	float: none;
+	display: block;
+	text-align: center;
+	margin: 0px;
+	margin-top: 25px;
+	font-size: 1.3em;
+	font-family: "Questrial", cursive;
+}
+#home-page #navigation {
+	float: none;
+	text-align: right;
+	margin: 0px;
+	float: right;
+	width: 30%;
+}
+
+#home-page #follow {
+	float: left;
+	margin-left: 10%;
+	width: 20%;
+}
+.follow-icon {
+	width: 25px;
+	height: 25px;
+	background: transparent;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+.avatar
+{
+	width: 150px;
+	height: 150px;
+
+	border-radius:160px;
+	margin: auto;
+	border: 3px solid #555;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.figure {
+	margin: auto;
+	width: auto;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.figure img {
+}
+.figure .caption {
+	font-size: 0.7em;
+	font-style: italic;
+	font-family: "Questrial", cursive;
+}
+
+#home-page div#content {
+	font-size: 1em;
+	text-align: center;
+}
+#home-page ul, #home-page ol {
+	list-style: none;
+}
+.video {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.video iframe {
+	width: 640px;
+	height: 480px;
+	margin: auto;
+}
